@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Bitter', serif;
+}
+
+body {
+    background: #00bf8f;
+    background: -webkit-linear-gradient(to top, #001510, #00bf8f);
+    background: linear-gradient(to top, #001510, #00bf8f);
+    background-size: cover;
+}
+
+.container {
+    width: 80%;
+    height: 80vh;
+    background-color: black;
+    display: flex;
+    margin: 54px auto;
+    border-radius: 25px;
+}
+
+.container .logo {
+    width: 30%;
+    height: 80vh;
+    background-color: rgb(32, 32, 32);
+}
+
+.container .logo img {
+    border: 2px solid white;
+    width: 200px;
+    height: 200px;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin: 51px 64px;
+}
+
+.container .logo h5 {
+    color: turquoise;
+    margin-left: 10px;
+}
+
+.container .logo i {
+    color: white;
+    margin-top: 25px;
+    padding-left: 3px;
+    margin-left: 53px;
+    font-size: 35px;
+    border-radius: 50%;
+}
+
+.container .logo i:hover {
+    color: rgb(3, 197, 245);
+}
+
+.container .name {
+    color: white;
+    width: 60%;
+    justify-content: center;
+    margin-left: 6%;
+    margin-top: 16%;
+}
+
+.container .name h2 {
+    font-size: 55px;
+    text-align: center;
+}
+
+.container .name span {
+    color: turquoise;
+}
+
+.container .name p {
+    text-align: center;
+    margin-left: 12px;
+    font-size: 33px;
+}
+
+.profile .navlist {
+    background-color: black;
+    width: 8%;
+}
+
+.profile .navlist i {
+    color: rgb(255, 255, 255);
+    padding-top: 75px;
+}
+
+.profile .navlist li:hover {
+    color: rgb(255, 0, 212);
+}
+
+.profile {
+    display: flex;
+}
+
+.profile .navlist {
+    margin-top: 15px;
+}
+
+.navlist .logolist {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container .name1 {
+    display: flex;
+}
+
+.container .name1 .about h1,
+p {
+    color: white;
+    width: 50%;
+    margin-top: 10%;
+}
+
+.container .name1 .about span {
+    color: aquamarine;
+}
+
+.container .about {
+    width: 50%;
+    margin-left: 50px;
+}
+
+.container .about2 {
+    width: 50%;
+}
+
+.container .about2 span {
+    color: aquamarine;
+}
+
+.container .about p {
+    width: 100%;
+    font-size: 18px;
+}
+
+.container .about2 p {
+    font-size: 15px;
+    margin-left: 100px;
+}
+
+.aboutlogo {
+    background-color: black;
+    width: 36%;
+    gap: 1rem;
+    display: flex;
+    margin: auto;
+    height: 70px;
+}
+
+.aboutlogo i {
+    padding-left: 12px;
+    margin-left: 80px;
+    
+}
+
+.aboutlogo a {
+    color: white;
+    text-align: center;
+    align-self: center;
+    transition: 0.7s;
+}
+
+
+.aboutlogo a:hover {
+    color: rgb(21, 235, 188);
+}
+
+.about .container {
+    width: 93%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.about span {
+    color: turquoise;
+}
+
+.about .container h1 {
+    color: white;
+    margin: 20px 54px;
+}
+
+.about .container .logolist {
+    margin-top: 100px;
+    margin-left: 250px;
+}
+
+.about .container .logolist i,
+h5 {
+    color: white;
+}
+
+.about .container .logolist h5 {
+    margin-top: 25px;
+}
+
+.about .container .logolist p {
+    font-size: 15px;
+}
+
+.about .container .logolist i {
+    color: turquoise;
+    font-size: 45px;
+}
+
+.logolist {
+    display: flex;
+}
+
+.myself {
+    display: flex;
+}
+
+.myself1 {
+    width: 70%;
+    margin-left: 115px;
+}
+
+.myself1 p {
+    font-size: 20px;
+}
+
+.myself2 {
+    width: 50%;
+}
+
+.myself2 p {
+    font-size: 15px;
+    height: 1px;
+}
+
+.pdf h1 {
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+}
+
+.pdf span {
+    color: turquoise;
+}
+
+.pdf h1 {
+    margin-left: 105px;
+    margin-top: 100px;
+}
+
+.pdf {
+    height: 100px;
+}
+
+.pdf p {
+    margin-left: 100px;
+}
+
+.pdf a {
+    color: turquoise;
+    text-decoration: none;
+    border: 2px solid turquoise;
+    padding: 20px 50px;
+}
+
+.pdf a:hover {
+    color: teal;
+    background-color: turquoise;
+}
+
+.pdf .btn {
+    margin: 140px 270px;
+}
+
+.project .container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.project .container h1 {
+    color: white;
+    margin-left: 45px;
+    margin-top: 20px;
+}
+
+.project .container span {
+    color: aquamarine;
+}
+
+.projectSection .section a h3,
+p {
+    color: white;
+    font-size: 15px;
+}
+
+.section a {
+    text-decoration: none;
+}
+
+.projectSection .section a img {
+    width: 200px;
+    height: 200px;
+    border: 8px solid aquamarine;
+    border-radius: 5px;
+}
+
+.projectSection {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    gap: 6rem;
+    align-items: center;
+}
+
+.section {
+    margin-top: 20px;
+    margin-left: 13.5rem;
+}
